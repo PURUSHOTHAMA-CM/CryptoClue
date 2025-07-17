@@ -99,6 +99,7 @@ hr{
 .headingcenter{
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 .headingA{
     display: inline-block;
@@ -225,7 +226,7 @@ animations for headings may be used like this*/
 }
 
 
-/* styling cions section */
+/* styling coins section */
 
 .outerC{
     display:flex;
@@ -309,7 +310,7 @@ label{
 }
 
 /* styling coin details by name section */
-
+/* 
 .outerN{
     display:flex;
     flex-direction: column;
@@ -317,9 +318,8 @@ label{
     min-height: 100%;
     min-width: 100%;
     justify-content: center;
-    /* background: linear-gradient(to top, #020B2A, #0A1F44, #191970); */
+    background: linear-gradient(to top, #020B2A, #0A1F44, #191970); 
     background-image: url('imgbg3.jpg');
-
 }
 
 #coinname{
@@ -328,7 +328,7 @@ label{
     border-radius: 5px;
     font-family: sans-serif;
     font-weight: bold;
-    /* margin-left: 80px; */
+    margin-left: 80px; 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -352,7 +352,9 @@ font-family: sans-serif;
 .singlecoin{
     min-height :140px ;
     margin-bottom: 40px;
-}
+} */
+
+
 
 /* footer styling */
 

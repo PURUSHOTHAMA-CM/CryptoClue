@@ -51,20 +51,20 @@ app.post("/get-cryptodata", async(req,res)=>{
 
 // getting data of particular coin using its symbol
 
-app.post("/get-byname",async (req,res)=>{
+// app.post("/get-byname",async (req,res)=>{
 
-    try{
-        const symbol=req.body.cName;
+//     try{
+//         const symbol=req.body.cName;
     
-    const response =await axios.get(`https://api.blockchain.com/v3/exchange/tickers/${symbol}`);
+//     const response =await axios.get(`https://api.blockchain.com/v3/exchange/tickers/${symbol}`);
 
-    res.render("index.ejs",{singleCoinInfo:response.data});
-    }
-    catch(error)
-    {
-        res.status(404).send("file not found");
-    }
-});
+//     res.render("index.ejs",{singleCoinInfo:response.data});
+//     }
+//     catch(error)
+//     {
+//         res.status(404).send("file not found");
+//     }
+// });
 
 // loading about and contact
     app.get("/about",(req,res)=>{
